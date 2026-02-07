@@ -1,0 +1,15 @@
+name = "mykeys-email"
+main = "src/email-worker.ts"
+compatibility_date = "2026-02-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "password-bot-db"
+database_id = "your-database-id-here"  # 与主 Worker 相同
+
+[vars]
+ALLOWED_USER_ID = "your-telegram-user-id"
+
+# 以下通过 wrangler secret put 设置，与主 Worker 共享
+# TELEGRAM_BOT_TOKEN
+# ENCRYPT_KEY
