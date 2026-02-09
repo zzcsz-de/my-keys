@@ -13,7 +13,7 @@ crons = ["0 1 * * *"]
 
 [vars]
 ALLOWED_USER_ID = "1684847761"
-EMAIL_DOMAINS = "abc.cn,net,xx.com"
+EMAIL_DOMAINS = "szzzc33@gmail.com"
 
 # 以下通过 wrangler secret put 设置，不要写在这里
 # TELEGRAM_BOT_TOKEN
